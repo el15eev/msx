@@ -22,38 +22,7 @@
           "layout": "6,1,6,4",
           "icon": "movie",
           "label": "HDGO",
-          "action": "start",
-          "data": {
-            "name": "HDGO.ME",
-            "type": "list",
-            "headline": "HDGO Media",
-            "version": "1.0.0",
-            "parameter": "content:http://hdgo.me/msx/start.json",
-            "action": "[settings:validate_links:0|home]",
-            "dictionary": "http://hdgo.me/msx/lang/ru.json",
-            "template": {
-              "type": "separate",
-              "layout": "0,0,2,3",
-              "color": "msx-glass"
-            },
-            "items": [
-              {
-                "title": "HDGO",
-                "image": "http://v3.hdgo.me/hdgo-logo.png",
-                "action": "link:http://v3.hdgo.me"
-              },
-              {
-                "title": "HDGO Lite",
-                "image": "http://hdgo.me/msx-logo.png",
-                "action": "link:http://hdgo.me"
-              },
-              {
-                "title": "ForkPlayer",
-                "image": "http://hdgo.me/msx/fork2.png",
-                "action": "link:http://browser.appfxml.com"
-              }
-            ]
-          }
+          "action":	"content:https://el15eev.github.io/msx/data/hdgo.json"
         }
       ]
     }
