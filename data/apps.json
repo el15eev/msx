@@ -1,0 +1,29 @@
+{
+  "type": "pages",
+  "headline": "Мои приложения",
+  "background": "linear-gradient(135deg, #111827 0%, #0f172a 55%, #020617 100%)",
+  "pages": [
+    {
+      "items": [
+        {
+          "type": "button",
+          "layout": "0,1,6,4",
+          "icon": "live-tv",
+          "label": "OTTPlayer",
+          "headline": "OTTPlayer",
+          "text": "Запустить OTTPlayer",
+          "action": "link:http://widget.ottplayer.tv"
+        },
+        {
+          "type": "button",
+          "layout": "6,1,6,4",
+          "icon": "movie",
+          "label": "HDGO",
+          "headline": "HDGO",
+          "text": "Запустить HDGO.ME",
+          "action": "link:http://hdgo.me"
+        }
+      ]
+    }
+  ]
+}
