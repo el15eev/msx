@@ -12,7 +12,12 @@
           "label": "OTTPlayer",
           "headline": "OTTPlayer",
           "text": "Запустить OTTPlayer",
-          "action": "link:http://widget.ottplayer.tv"
+          "action": "start",
+          "data": {
+            "name": "OTTPlayer",
+            "version": "1.0.0",
+            "parameter": "redirect:https://widget.ottplayer.tv/msx/start.json"
+          }
         },
         {
           "type": "button",
@@ -20,8 +25,13 @@
           "icon": "movie",
           "label": "HDGO",
           "headline": "HDGO",
-          "text": "Запустить HDGO.ME",
-          "action": "link:http://hdgo.me"
+          "text": "Запустить HDGO для Media Station X",
+          "action": "start",
+          "data": {
+            "name": "HDGO",
+            "version": "1.0.0",
+            "parameter": "redirect:https://hdgo.me/msx/start.json"
+          }
         }
       ]
     }
