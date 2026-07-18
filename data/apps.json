@@ -10,12 +10,7 @@
           "layout": "0,1,6,4",
           "icon": "live-tv",
           "label": "OTTPlayer",
-          "action": "start",
-          "data": {
-            "name": "OTTPlayer",
-            "version": "1.0.0",
-            "parameter": "redirect:https://widget.ottplayer.tv/msx/start.json"
-          }
+          "action": "link:http://widget.ottplayer.tv"
         },
         {
           "type": "button",
