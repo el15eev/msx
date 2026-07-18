@@ -30,7 +30,7 @@
           "data": {
             "name": "HDGO",
             "version": "1.0.0",
-            "parameter": "redirect:https://hdgo.me/msx/start.json"
+            "parameter": "redirect:http://v3.hdgo.me"
           }
         }
       ]
