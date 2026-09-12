@@ -1,0 +1,22 @@
+{
+  "type": "list",
+  "headline": "Lampa",
+  "action": "[settings:validate_links:0|home]",
+  "template": {
+    "type": "separate",
+    "layout": "0,0,2",
+    "color": "msx-glass"
+  },
+  "items": [
+    {
+      "title": "Lampa",
+      "image": "http://lampa.mx/icons/apple-touch-icon.png",
+      "action": "link:http://lampa.mx"
+    },
+    {
+      "title": "ForkPlayer",
+      "image": "http://hdgo.me/msx/fork2.png",
+      "action": "link:http://browser.appfxml.com"
+    }
+  ]
+}

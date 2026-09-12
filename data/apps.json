@@ -16,8 +16,8 @@
           "type": "button",
           "layout": "6,1,6,4",
           "icon": "movie",
-          "label": "HDGO",
-          "action":	"content:https://el15eev.github.io/msx/data/hdgo.json"
+          "label": "Lampa",
+          "action":	"content:https://el15eev.github.io/msx/data/lampa.json"
         }
       ]
     }
